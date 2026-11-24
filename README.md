@@ -12,6 +12,13 @@ Pushes pile onto the **in** stack. Pops come from the **out** stack, which holds
 
 **Complexity:** amortized O(1) per operation, O(n) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
